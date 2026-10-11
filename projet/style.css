@@ -1,0 +1,139 @@
+header{
+    background-color: #064e3b;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 5%;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+.l1{
+    width: 1000px;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+h1{
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+} 
+#img1 {
+    display: none; 
+}
+#list1{
+    list-style: none;
+    display: flex;
+    
+    
+}
+
+
+.a1{
+    
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.3s;
+
+}
+body{
+    background-color: #7d8e84;
+    color: #333;
+    
+}
+.a1:hover{
+    color: #34109e;
+    background-color: rgb(18, 205, 230);
+    font-size:70px ;
+}
+article{
+    background: linear-gradient(rgba(6, 78, 59, 0.7), rgba(6, 78, 59, 0.7)), url('projet/image1.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 5rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+figcaption{
+    font-size: 20px;
+    font-style: italic;
+    color: bisque;
+    text-decoration-line: underline;
+    font-weight: bold;
+}
+#b1{
+    background-color: #f59e0b;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 400px;
+    transition: background 0.3s;
+}
+#a2{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+#b1:hover{
+    background-color: #d97706;
+}
+#article2{
+    padding: 0 20px;
+}
+ol{
+    display: inline-block;
+    gap: 20px;
+    list-style: none;
+}
+ol li{
+    background: rgb(89, 122, 96);
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    font-weight: bold;
+    color: #064e3b;
+    display: inline-flex;
+    gap: 10px;
+    border: 1px solid #e5e7eb;
+    font-size: 50px;
+    transition: all 1s;
+}
+.img2{
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+h2{
+    margin-bottom: 1.5rem;
+    color: white;
+    font-size: 30px;
+    border-left: 4px solid #059669;
+    padding-left: 10px;
+    cursor: pointer; 
+}
+h2:hover{
+    background-color: #d97706;
+}
+ol li:hover{
+    font-size: 100px;
+}
+p{
+    text-align: center;
+    font-size: medium;
+    font-weight: bolder;
+    text-decoration-line: underline;
+
+}
